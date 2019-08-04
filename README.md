@@ -1,4 +1,4 @@
-# Desafio 01. Conceitos do NodeJS
+# Rocketseat Desafio 01 - Conceitos do NodeJS
 
 Aplicação desenvolvida para armazenamento de projetos e tarefas.projetos e suas tarefas com express.
 
