@@ -1,8 +1,8 @@
-# Rocketseat Desafio 01 - Conceitos do NodeJS
+# Rocketseat Challenge 01 - NodeJS Concepts
 
-Aplicação desenvolvida para armazenamento de projetos e tarefas.projetos e suas tarefas com express.
+NodeJS Express App to create projects and tasks.
 
-## Rotas
+## Routes
 
 - `GET /projects`
 - `GET /projects/:id`
@@ -13,6 +13,6 @@ Aplicação desenvolvida para armazenamento de projetos e tarefas.projetos e sua
 
 ## Middlewares
 
-- Criado um middleware que é utilizado em todas as rotas que recebem o parâmetro ID do projeto e verifica se o projeto existe, caso não encontrado retorna um erro 404, caso sucesso atribui o projeto a requisição.
+- Middleware used in all routes that receive Project ID, if project does not founded returns error 404, in success case, assign the project to req.project.
 
-- Criado um middleware global que contabiliza o número de requisições realizadas na aplicação.
+- Global Middleware to sum number of reqs on app.
